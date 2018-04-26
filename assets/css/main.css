@@ -1,0 +1,54 @@
+.box-wrapper {
+    padding: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    border: solid 1px green
+}
+
+.sideBar {
+    flex-grow: 2;
+    border: solid 1px orange
+}
+
+.main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.main div {
+    flex-grow: 1;
+    margin: 0 8px;
+    border: solid 1px red;
+}
+
+.main div+div {
+    margin-top: 8px
+}
+
+
+
+/* Image */
+
+.image {
+    display: inline-block;
+    border: 0;
+}
+    .image img {
+        display: block;
+        width: 100%;
+    }
+    .image.profile {
+        width: 64px;
+        height: 64px;
+    }
+        .image.profile img {
+            width: 64px;
+            height: 64px;
+        }
+
+#nav ul {
+
+}
+
