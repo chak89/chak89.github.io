@@ -1,3 +1,3 @@
-# chak.github.io
+# chak89.github.io
 
-Simple website hosted directly from my GitHub repository [chak.github.io](https://chak.github.io)
+Website hosted directly from my GitHub repository [chak89.github.io](https://chak89.github.io)
