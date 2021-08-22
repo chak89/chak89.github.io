@@ -30,6 +30,7 @@ html * {
 		clear: both;
 	}
 
+
 /* Image */
 	.image {
 		display: inline-block;
@@ -149,6 +150,8 @@ html * {
         font-size:120%
     }
 
+
+
 .placeholder {
     padding-right: 1px;
 }
@@ -172,3 +175,33 @@ padding-bottom: 2%;
  .cardDiv .moveToBottom {
     padding-top:10%
  }
+
+.mainBody .bottom {
+    display: none;
+}
+
+/* For browser with size less than */
+ @media (max-width: 575.98px) {
+
+    /* Move main body to front overlap side bar. */
+    .mainBody {
+        padding-top: 40%;
+        z-index: 1000;
+    }
+
+    /* Hide side bar text */
+    #nav {
+        display: none;
+    }
+
+    .sideBarDiv .bottom {
+        display: none;
+    }
+
+    .mainBody .bottom {
+        display: block;
+    }
+        .mainBody .bottom ul {
+            list-style-type: none;
+        }
+}
